@@ -145,4 +145,7 @@
     padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
   }
+  .frameParent {
+    max-width: 100%;
+  }
 }

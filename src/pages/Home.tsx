@@ -2,6 +2,7 @@ import { FunctionComponent, useCallback } from "react";
 import FrameComponent6 from "../components/FrameComponent6";
 import FrameComponent3 from "../components/FrameComponent3";
 import FrameComponent4 from "../components/FrameComponent4";
+import ProductCard from "../components/ProductCard";
 import { useNavigate } from "react-router-dom";
 import FrameComponent2 from "../components/FrameComponent2";
 import FrameComponent from "../components/FrameComponent";
@@ -77,17 +78,28 @@ const Home: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.outdoorSofaSet1Parent}>
-                <img
-                  className={styles.outdoorSofaSet1}
-                  alt=""
-                  src="/outdoor-sofa-set-1@2x.png"
-                />
-                <div className={styles.outdoorSofaSetParent}>
-                  <div className={styles.outdoorSofaSet}>Outdoor sofa set</div>
-                  <div className={styles.rs24400000}>Rs. 244,000.00</div>
-                </div>
-              </div>
+              <ProductCard
+                trentonModularSofa31="/outdoor-sofa-set-1@2x.png"
+                trentonModularSofa3="Outdoor sofa set"
+                rs2500000="Rs. 244,000.00"
+                propHeight="unset"
+                propWidth="unset"
+                propMargin="unset"
+                propPosition="unset"
+                propTop="unset"
+                propLeft="unset"
+                propFlex="0.6419"
+                propPadding="0px var(--padding-41xl-5) var(--padding-12xs)"
+                propAlignSelf="unset"
+                propFlex1="unset"
+                propOverflow="unset"
+                propMarginLeft="-72.5px"
+                propWidth1="344px"
+                propAlignSelf1="stretch"
+                propAlignSelf2="stretch"
+                propWidth2="unset"
+                propDisplay="unset"
+              />
             </div>
             <div className={styles.frameWrapper4}>
               <div className={styles.viewMoreWrapper}>

@@ -1,0 +1,174 @@
+.graniteSquareSideTable2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.graniteSquareSide,
+.rs25880000 {
+  position: relative;
+}
+.rs25880000 {
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.graniteSquareSideTableParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameWrapper,
+.graniteSquareSideTable2Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl) 0 var(--padding-34xl-5);
+}
+.graniteSquareSideTable2Parent {
+  height: 372px;
+  width: 320px;
+  margin: 0 !important;
+  position: absolute;
+  top: 1116px;
+  left: 0;
+  flex-direction: column;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  min-width: 320px;
+  max-width: 320px;
+  z-index: 1;
+}
+.asgaardSofa2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.asgaardSofa {
+  position: relative;
+  display: inline-block;
+  min-width: 108px;
+}
+.rs25000000 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.asgaardSofa2Parent,
+.asgaardSofaParent,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.asgaardSofaParent {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.asgaardSofa2Parent,
+.frameContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-49xl) 0 var(--padding-49xl-5);
+}
+.asgaardSofa2Parent {
+  height: 372px;
+  width: 320px;
+  margin: 0 !important;
+  position: absolute;
+  top: 1116px;
+  left: 360px;
+  flex-direction: column;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  min-width: 320px;
+  max-width: 320px;
+  z-index: 1;
+}
+.mayaSofaThreeSeater1 {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.mayaSofaThree,
+.mayaSofaThreeSeater1 {
+  align-self: stretch;
+  position: relative;
+}
+.rs11500000 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.mayaSofaThreeSeaterParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameDiv,
+.mayaSofaThreeSeater1Parent,
+.mayaSofaThreeSeaterParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-30xl);
+}
+.mayaSofaThreeSeater1Parent {
+  height: 372px;
+  width: 320px;
+  margin: 0 !important;
+  position: absolute;
+  top: 1116px;
+  left: 720px;
+  flex-direction: column;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  min-width: 320px;
+  max-width: 320px;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  height: 1488px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1250px) {
+  .rs11500000,
+  .rs25000000,
+  .rs25880000 {
+    font-size: var(--font-size-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rs11500000,
+  .rs25000000,
+  .rs25880000 {
+    font-size: var(--font-size-lgi);
+  }
+}

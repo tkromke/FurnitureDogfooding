@@ -1,57 +1,50 @@
-.maskGroupIcon {
-  width: 287px;
-  height: 287px;
+.trentonModularSofa31 {
+  align-self: stretch;
+  flex: 1;
   position: relative;
-  object-fit: contain;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
+.rs2500000,
 .trentonModularSofa3 {
   position: relative;
-  white-space: nowrap;
-}
-.trentonModularSofa3Wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-27xl) 0 var(--padding-27xl-5);
 }
 .rs2500000 {
-  position: relative;
+  font-size: var(--font-size-5xl);
   font-weight: 500;
 }
-.maskGroupParent,
-.rs2500000Wrapper {
+.trentonModularSofa31Parent,
+.trentonModularSofa3Parent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-27xl) 0 var(--padding-27xl-5);
-  font-size: var(--font-size-5xl);
+  gap: var(--gap-2xs);
 }
-.maskGroupParent {
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) var(--padding-6xl) var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
+.trentonModularSofa31Parent {
+  height: 372px;
+  width: 320px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  gap: var(--gap-12xl);
   min-width: 320px;
-  max-width: 100%;
+  max-width: 320px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
-@media screen and (max-width: 450px) {
-  .trentonModularSofa3Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
+@media screen and (max-width: 1250px) {
   .rs2500000 {
     font-size: var(--font-size-lgi);
   }
-  .rs2500000Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .rs2500000 {
+    font-size: var(--font-size-lgi);
   }
 }

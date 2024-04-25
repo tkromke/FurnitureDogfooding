@@ -222,6 +222,29 @@
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+@media screen and (max-width: 1250px) {
+  .filter {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+  .default,
+  .div,
+  .show,
+  .sortBy {
+    font-size: var(--font-size-base);
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
 @media screen and (max-width: 1150px) {
   .rectangleParent {
     flex-wrap: wrap;

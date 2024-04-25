@@ -26,6 +26,7 @@
 .home {
   flex: 1;
   min-width: 48px;
+  cursor: pointer;
 }
 .dashiconsarrowDownAlt2 {
   width: 20px;
@@ -83,6 +84,11 @@
   font-size: var(--font-size-29xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1250px) {
+  .shop {
+    font-size: var(--font-size-10xl);
+  }
 }
 @media screen and (max-width: 800px) {
   .shop {

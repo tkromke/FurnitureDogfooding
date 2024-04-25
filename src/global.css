@@ -41,7 +41,6 @@ body {
   --color-snow-200: #faf4f4;
   --color-oldlace-100: #fff9e6;
   --color-oldlace-200: #fff9e5;
-  --color-antiquewhite: #e6e0cc;
   --color-darkslategray-100: #333;
   --color-darkslategray-200: rgba(51, 51, 51, 0.09);
   --color-moccasin: #fbebb5;
@@ -67,7 +66,6 @@ body {
   --gap-14xl: 33px;
   --gap-mid: 17px;
   --gap-lgi: 19px;
-  --gap-smi: 13px;
   --gap-9xl: 28px;
   --gap-21xl: 40px;
   --gap-2xs: 11px;
@@ -129,7 +127,12 @@ body {
   --padding-15xl: 34px;
   --padding-6xs: 7px;
   --padding-9xs: 4px;
+  --padding-41xl-5: 60.5px;
   --padding-30xl: 49px;
+  --padding-49xl: 68px;
+  --padding-49xl-5: 68.5px;
+  --padding-34xl: 53px;
+  --padding-34xl-5: 53.5px;
   --padding-11xs: 2px;
   --padding-5xs: 8px;
   --padding-37xl: 56px;
@@ -187,11 +190,12 @@ body {
   --padding-54xl: 73px;
   --padding-8xs-5: 4.5px;
   --padding-lgi: 19px;
+  --padding-45xl: 64px;
   --padding-12xl-3: 31.3px;
+  --padding-13xl-5: 32.5px;
   --padding-8xl-8: 27.8px;
-  --padding-38xl: 57px;
-  --padding-38xl-5: 57.5px;
-  --padding-48xl-5: 67.5px;
+  --padding-8xl-9: 27.9px;
+  --padding-11xl-2: 30.2px;
   --padding-2xl-5: 21.5px;
   --padding-24xl-5: 43.5px;
 

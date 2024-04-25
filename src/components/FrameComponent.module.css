@@ -411,4 +411,8 @@
   .footerLinks {
     gap: var(--gap-7xl);
   }
+  .frameContainer,
+  .subscribeForm {
+    max-width: 100%;
+  }
 }

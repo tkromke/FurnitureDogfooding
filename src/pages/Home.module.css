@@ -65,7 +65,7 @@
 .frameWrapper1 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 53px 0 53.5px;
+  padding: 0 var(--padding-34xl) 0 var(--padding-34xl-5);
 }
 .graniteSquareSideTable2Parent {
   height: 372px;
@@ -111,7 +111,7 @@
 .frameWrapper2 {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 68px 0 68.5px;
+  padding: 0 var(--padding-49xl) 0 var(--padding-49xl-5);
 }
 .asgaardSofa2Parent {
   height: 372px;
@@ -140,70 +140,34 @@
   font-size: var(--font-size-5xl);
   font-weight: 500;
 }
-.mayaSofaThreeSeaterParent {
-  flex: 1;
-  flex-direction: column;
-  gap: var(--gap-2xs);
-}
 .frameWrapper3,
-.mayaSofaThreeSeater1Parent,
 .mayaSofaThreeSeaterParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.mayaSofaThreeSeaterParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
 }
 .frameWrapper3 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-30xl);
 }
+.frameDiv,
+.mayaSofaThreeSeater1Parent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
 .mayaSofaThreeSeater1Parent {
   height: 372px;
   flex: 1;
   flex-direction: column;
+  justify-content: flex-start;
   padding: 0 var(--padding-8xs);
-  box-sizing: border-box;
-  gap: var(--gap-12xl);
-  min-width: 320px;
-  max-width: 320px;
-}
-.outdoorSofaSet1 {
-  margin-left: -72.5px;
-  width: 344px;
-  position: relative;
-  max-height: 100%;
-  object-fit: cover;
-  max-width: 173%;
-  flex-shrink: 0;
-}
-.outdoorSofaSet {
-  align-self: stretch;
-  position: relative;
-}
-.rs24400000 {
-  position: relative;
-  font-size: var(--font-size-5xl);
-  font-weight: 500;
-}
-.outdoorSofaSetParent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-2xs);
-}
-.frameDiv,
-.outdoorSofaSet1Parent {
-  display: flex;
-  align-items: flex-start;
-  box-sizing: border-box;
-}
-.outdoorSofaSet1Parent {
-  flex: 0.6419;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 0 60.5px var(--padding-12xs);
   gap: var(--gap-12xl);
   min-width: 320px;
   max-width: 320px;
@@ -322,7 +286,7 @@
   white-space: nowrap;
 }
 .orderNowWrapper:hover {
-  background-color: var(--color-antiquewhite);
+  background-color: #e6e0cc;
   border: 1px solid var(--color-darkslategray-100);
   box-sizing: border-box;
 }
@@ -390,7 +354,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--gap-smi);
+  gap: 13px;
 }
 .frameParent2,
 .ourBlogsParent,
@@ -593,15 +557,6 @@
   }
   .mayaSofaThreeSeater1Parent {
     gap: var(--gap-mini);
-  }
-  .rs24400000 {
-    font-size: var(--font-size-lgi);
-  }
-  .outdoorSofaSet1Parent {
-    gap: var(--gap-mini);
-    padding-left: var(--padding-11xl);
-    padding-right: var(--padding-11xl);
-    box-sizing: border-box;
   }
   .viewMore {
     font-size: var(--font-size-base);

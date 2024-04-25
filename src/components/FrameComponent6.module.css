@@ -108,8 +108,8 @@
 }
 @media screen and (max-width: 450px) {
   .fRAMEHOMESHOPABParent {
-    gap: var(--gap-xl);
-    padding-left: var(--padding-xl);
+    gap: var(--gap-60xl);
+    padding-left: var(--padding-193xl);
     box-sizing: border-box;
   }
 }
