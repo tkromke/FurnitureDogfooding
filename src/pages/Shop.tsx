@@ -30,7 +30,6 @@ const Shop: FunctionComponent = () => {
       <FrameComponent10 />
       <GroupComponent2 />
       <FrameComponent8 />
-      <FrameComponent7 />
       <GroupComponent1 />
       <Footer
         propMarginTop="unset"
