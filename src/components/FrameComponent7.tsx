@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import ProductCard from "./ProductCard";
 import styles from "./FrameComponent7.module.css";
 
 const FrameComponent7: FunctionComponent = () => {
@@ -6,64 +7,58 @@ const FrameComponent7: FunctionComponent = () => {
     <section className={styles.shopInner}>
       <div className={styles.frameParent}>
         <div className={styles.frameGroup}>
-          <div className={styles.maskGroupParent}>
-            <img
-              className={styles.maskGroupIcon}
-              loading="lazy"
-              alt=""
-              src="/mask-group@2x.png"
-            />
-            <div className={styles.graniteSquareSideTableWrapper}>
-              <div className={styles.graniteSquareSide}>
-                Granite square side table
-              </div>
-            </div>
-            <div className={styles.rs25880000Wrapper}>
-              <div className={styles.rs25880000}>Rs. 258,800.00</div>
-            </div>
-          </div>
-          <div className={styles.maskGroupGroup}>
-            <img
-              className={styles.maskGroupIcon1}
-              loading="lazy"
-              alt=""
-              src="/mask-group-1@2x.png"
-            />
-            <div className={styles.asgaardSofaWrapper}>
-              <div className={styles.asgaardSofa}>Asgaard sofa</div>
-            </div>
-            <div className={styles.rs25000000Wrapper}>
-              <div className={styles.rs25000000}>Rs. 250,000.00</div>
-            </div>
-          </div>
-          <div className={styles.maskGroupContainer}>
-            <img
-              className={styles.maskGroupIcon2}
-              loading="lazy"
-              alt=""
-              src="/mask-group-2@2x.png"
-            />
-            <div className={styles.mayaSofaThreeSeaterWrapper}>
-              <div className={styles.mayaSofaThree}>Maya sofa three seater</div>
-            </div>
-            <div className={styles.rs11500000Wrapper}>
-              <div className={styles.rs11500000}>Rs. 115,000.00</div>
-            </div>
-          </div>
-          <div className={styles.frameDiv}>
-            <img
-              className={styles.maskGroupIcon3}
-              loading="lazy"
-              alt=""
-              src="/mask-group-3@2x.png"
-            />
-            <div className={styles.outdoorSofaSetWrapper}>
-              <div className={styles.outdoorSofaSet}>Outdoor sofa set</div>
-            </div>
-            <div className={styles.rs24400000Wrapper}>
-              <div className={styles.rs24400000}>Rs. 244,000.00</div>
-            </div>
-          </div>
+          <ProductCard
+            maskGroup="/mask-group@2x.png"
+            trentonModularSofa3="Granite square side table"
+            rs2500000="Rs. 258,800.00"
+            frameDivPadding="0px var(--padding-lgi-9)"
+            frameDivWidth="unset"
+            frameDivPadding1="0px var(--padding-23xl)"
+            frameDivAlignSelf="stretch"
+            rs2500000Flex="unset"
+            rs2500000Display="unset"
+            rs2500000MinWidth="unset"
+            propPadding="0px var(--padding-23xl)"
+          />
+          <ProductCard
+            maskGroup="/mask-group-1@2x.png"
+            trentonModularSofa3="Asgaard sofa"
+            rs2500000="Rs. 250,000.00"
+            frameDivPadding="0px var(--padding-lgi-8)"
+            frameDivWidth="unset"
+            frameDivPadding1="0px var(--padding-19xl) 0px var(--padding-18xl-5)"
+            frameDivAlignSelf="stretch"
+            rs2500000Flex="1"
+            rs2500000Display="unset"
+            rs2500000MinWidth="unset"
+            propPadding="0px var(--padding-18xl) 0px var(--padding-18xl-5)"
+          />
+          <ProductCard
+            maskGroup="/mask-group-2@2x.png"
+            trentonModularSofa3="Maya sofa three seater"
+            rs2500000="Rs. 115,000.00"
+            frameDivPadding="0px var(--padding-lgi-9)"
+            frameDivWidth="unset"
+            frameDivPadding1="0px var(--padding-18xl) 0px var(--padding-18xl-5)"
+            frameDivAlignSelf="stretch"
+            rs2500000Flex="1"
+            rs2500000Display="unset"
+            rs2500000MinWidth="unset"
+            propPadding="0px var(--padding-18xl) 0px var(--padding-18xl-5)"
+          />
+          <ProductCard
+            maskGroup="/mask-group-3@2x.png"
+            trentonModularSofa3="Outdoor sofa set"
+            rs2500000="Rs. 244,000.00"
+            frameDivPadding="0px var(--padding-lgi-8) var(--padding-12xs)"
+            frameDivWidth="unset"
+            frameDivPadding1="0px var(--padding-25xl)"
+            frameDivAlignSelf="stretch"
+            rs2500000Flex="1"
+            rs2500000Display="unset"
+            rs2500000MinWidth="unset"
+            propPadding="0px var(--padding-25xl)"
+          />
         </div>
         <div className={styles.freeShipping}>
           <div className={styles.frameContainer}>

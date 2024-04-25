@@ -4,37 +4,38 @@
   position: relative;
   object-fit: contain;
 }
-.trentonModularSofa3 {
+.sjp0825 {
+  align-self: stretch;
   position: relative;
-  white-space: nowrap;
 }
-.trentonModularSofa3Wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-27xl) 0 var(--padding-27xl-5);
-}
-.rs2500000 {
+.rs20000000 {
   position: relative;
+  font-size: var(--font-size-5xl);
   font-weight: 500;
 }
+.sjp0825Parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameWrapper,
 .maskGroupParent,
-.rs2500000Wrapper {
+.sjp0825Parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rs2500000Wrapper {
+.frameWrapper {
+  align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-27xl) 0 var(--padding-27xl-5);
-  font-size: var(--font-size-5xl);
+  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
 }
 .maskGroupParent {
+  width: 326px;
   flex-direction: column;
   padding: 0 var(--padding-lgi) 0 var(--padding-lgi-9);
   box-sizing: border-box;
-  gap: var(--gap-smi-5);
+  gap: var(--gap-base);
   min-width: 320px;
   max-width: 100%;
 }
@@ -44,381 +45,49 @@
   position: relative;
   object-fit: contain;
 }
-.graniteDiningTable {
-  flex: 1;
+.bellaChairAnd {
+  align-self: stretch;
   position: relative;
 }
-.graniteDiningTableWithDiniWrapper {
+.rs10000000 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.bellaChairAndTableParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frameContainer {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-}
-.rs25000001 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupGroup,
-.rs2500000Container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs2500000Container {
-  flex-direction: row;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
+  justify-content: flex-end;
+  padding: 0 var(--padding-25xl) 0 var(--padding-24xl);
 }
 .maskGroupGroup {
   width: 326px;
+  display: flex;
   flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-8);
-  box-sizing: border-box;
-  gap: var(--gap-smi);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon2 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.outdoorBarTable {
-  flex: 1;
-  position: relative;
-}
-.outdoorBarTableAndStoolWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-}
-.rs25000002 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupContainer,
-.rs2500000Frame {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs2500000Frame {
-  flex-direction: row;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupContainer {
-  width: 326px;
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-smi);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon3 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.plainConsoleWith {
-  flex: 1;
-  position: relative;
-}
-.plainConsoleWithTeakMirrorWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-24xl) 0 var(--padding-25xl);
-}
-.rs25000003 {
-  position: relative;
-  font-weight: 500;
-}
-.frameDiv,
-.rs2500000Wrapper1 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs2500000Wrapper1 {
-  flex-direction: row;
-  padding: 0 var(--padding-25xl);
-  font-size: var(--font-size-5xl);
-}
-.frameDiv {
-  width: 326px;
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-8);
-  box-sizing: border-box;
-  gap: var(--gap-smi);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon4 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.grainCoffeeTable {
-  position: relative;
-  white-space: nowrap;
-}
-.grainCoffeeTableWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-56xl) 0 var(--padding-48xl-5);
-}
-.rs1500000 {
-  position: relative;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.maskGroupParent1,
-.rs1500000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs1500000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-48xl) 0 var(--padding-48xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupParent1 {
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon5 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.kentCoffeeTable {
-  flex: 1;
-  position: relative;
-}
-.kentCoffeeTableWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-}
-.rs22500000 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupParent2,
-.rs22500000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs22500000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupParent2 {
-  width: 326px;
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-8);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon6 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.roundCoffeeTableColor {
-  flex: 1;
-  position: relative;
-}
-.roundCoffeeTableColor2Wrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-}
-.rs25100000 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupParent3,
-.rs25100000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs25100000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupParent3 {
-  width: 326px;
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-sm);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon7 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.reclaimedTeakCoffee {
-  flex: 1;
-  position: relative;
-}
-.reclaimedTeakCoffeeTableWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-24xl) 0 var(--padding-25xl);
-}
-.rs2520000 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupParent4,
-.rs2520000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs2520000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-25xl);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupParent4 {
-  width: 326px;
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-8);
-  box-sizing: border-box;
-  gap: var(--gap-sm);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon8 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.plainConsole {
-  position: relative;
-  display: inline-block;
-  min-width: 117px;
-}
-.plainConsoleWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-38xl) 0 var(--padding-38xl-5);
-}
-.rs25820000 {
-  position: relative;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.maskGroupParent5,
-.rs25820000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs25820000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-38xl) 0 var(--padding-38xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupParent5 {
-  flex-direction: column;
-  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon9 {
-  width: 287px;
-  height: 287px;
-  object-fit: contain;
-}
-.maskGroupIcon9,
-.reclaimedTeakSideboard {
-  position: relative;
-}
-.reclaimedTeakSideboardWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-}
-.rs2000000 {
-  position: relative;
-  font-weight: 500;
-}
-.rs2000000Wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
-}
-.frameParent,
-.maskGroupParent6,
-.shopInner {
-  display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.maskGroupParent6 {
-  flex-direction: column;
+  align-items: flex-end;
   justify-content: flex-start;
   padding: 0 var(--padding-lgi) 0 var(--padding-lgi-8);
   box-sizing: border-box;
-  gap: var(--gap-xs);
+  gap: var(--gap-mid);
   min-width: 320px;
+  max-width: 100%;
 }
 .frameParent,
 .shopInner {
+  display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
 }
 .frameParent {
   width: 1400.1px;
@@ -437,63 +106,13 @@
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 450px) {
-  .trentonModularSofa3Wrapper {
+  .rs10000000,
+  .rs20000000 {
+    font-size: var(--font-size-lgi);
+  }
+  .frameContainer {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
-  }
-  .rs2500000 {
-    font-size: var(--font-size-lgi);
-  }
-  .rs2500000Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs25000001,
-  .rs25000002 {
-    font-size: var(--font-size-lgi);
-  }
-  .plainConsoleWithTeakMirrorWrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs25000003 {
-    font-size: var(--font-size-lgi);
-  }
-  .grainCoffeeTableWrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs1500000 {
-    font-size: var(--font-size-lgi);
-  }
-  .rs1500000Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs22500000,
-  .rs25100000 {
-    font-size: var(--font-size-lgi);
-  }
-  .reclaimedTeakCoffeeTableWrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs2520000,
-  .rs25820000 {
-    font-size: var(--font-size-lgi);
-  }
-  .rs25820000Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs2000000 {
-    font-size: var(--font-size-lgi);
   }
 }

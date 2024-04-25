@@ -6,10 +6,10 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import Shop from "./pages/Shop";
 import SingleProduct from "./pages/SingleProduct";
 import Checkout from "./pages/Checkout";
 import Cart from "./pages/Cart";
+import Shop from "./pages/Shop";
 
 function App() {
   const action = useNavigationType();
@@ -31,10 +31,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/shop":
-        title = "";
-        metaDescription = "";
-        break;
       case "/single-product":
         title = "";
         metaDescription = "";
@@ -44,6 +40,10 @@ function App() {
         metaDescription = "";
         break;
       case "/cart":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/shop":
         title = "";
         metaDescription = "";
         break;
@@ -66,10 +66,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/shop" element={<Shop />} />
       <Route path="/single-product" element={<SingleProduct />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/cart" element={<Cart />} />
+      <Route path="/shop" element={<Shop />} />
     </Routes>
   );
 }

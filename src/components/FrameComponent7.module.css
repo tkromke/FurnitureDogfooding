@@ -1,176 +1,11 @@
-.maskGroupIcon {
-  width: 287px;
-  height: 287px;
-  object-fit: contain;
-}
-.graniteSquareSide,
-.maskGroupIcon {
-  position: relative;
-}
-.graniteSquareSideTableWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-23xl);
-}
-.rs25880000 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupParent,
-.rs25880000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs25880000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-23xl);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupParent {
-  flex-direction: column;
-  padding: 0 var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon1 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.asgaardSofa {
-  flex: 1;
-  position: relative;
-}
-.asgaardSofaWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-19xl) 0 var(--padding-18xl-5);
-}
-.rs25000000 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupGroup,
-.rs25000000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs25000000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupGroup {
-  flex-direction: column;
-  padding: 0 var(--padding-lgi-8);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon2 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.mayaSofaThree {
-  flex: 1;
-  position: relative;
-}
-.mayaSofaThreeSeaterWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-}
-.rs11500000 {
-  position: relative;
-  font-weight: 500;
-}
-.maskGroupContainer,
-.rs11500000Wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs11500000Wrapper {
-  flex-direction: row;
-  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
-  font-size: var(--font-size-5xl);
-}
-.maskGroupContainer {
-  flex-direction: column;
-  padding: 0 var(--padding-lgi-9);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-  max-width: 100%;
-}
-.maskGroupIcon3 {
-  width: 287px;
-  height: 287px;
-  position: relative;
-  object-fit: contain;
-}
-.outdoorSofaSet {
-  flex: 1;
-  position: relative;
-}
-.outdoorSofaSetWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-25xl);
-}
-.rs24400000 {
-  position: relative;
-  font-weight: 500;
-}
-.frameDiv,
-.frameGroup,
-.rs24400000Wrapper {
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.rs24400000Wrapper {
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-25xl);
-  font-size: var(--font-size-5xl);
-}
-.frameDiv,
-.frameGroup {
-  max-width: 100%;
-}
-.frameDiv {
-  display: flex;
-  flex-direction: column;
-  padding: 0 var(--padding-lgi-8) var(--padding-12xs);
-  box-sizing: border-box;
-  gap: var(--gap-smi-5);
-  min-width: 320px;
-}
 .frameGroup {
   align-self: stretch;
   display: grid;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-12xl);
+  max-width: 100%;
   grid-template-columns: repeat(4, minmax(245px, 1fr));
 }
 .frameChild {
@@ -295,7 +130,6 @@
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
-  font-size: var(--font-size-xl);
 }
 .frameParent,
 .freeShipping,
@@ -317,7 +151,7 @@
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
@@ -337,36 +171,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .graniteSquareSideTableWrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs25880000 {
-    font-size: var(--font-size-lgi);
-  }
-  .rs25880000Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs11500000,
-  .rs25000000 {
-    font-size: var(--font-size-lgi);
-  }
-  .outdoorSofaSetWrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .rs24400000 {
-    font-size: var(--font-size-lgi);
-  }
-  .rs24400000Wrapper {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
   .div,
   .div1,
   .div2,
