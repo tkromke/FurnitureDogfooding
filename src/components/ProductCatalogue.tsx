@@ -1,16 +1,44 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 import styles from "./ProductCatalogue.module.css";
 
 const ProductCatalogue: FunctionComponent = () => {
+  const [products , setProducts] = useState([]);
+
+  useEffect (() => {
+  fetch('https://fakestoreapi.com/products')
+            .then(res=>res.json())
+            .then(json=>{
+              console.log(json);
+              setProducts(json);
+            })
+},[]);
   return (
     <div className={styles.frameParent}>
+       {products.map(product => (
       <ProductCard
-        trentonModularSofa31="/trenton-modular-sofa-3-1@2x.png"
-        trentonModularSofa3="Trenton modular sofa_3"
-        rs2500000="Rs. 25,000.00"
-      />
-      <ProductCard
+        trentonModularSofa31={product.image}
+        trentonModularSofa3={product.name}
+        rs2500000={product.price}
+        propHeight="372px"
+        propWidth="320px"
+        propMargin="0 !important"
+        // propPosition="absolute"
+        // propTop="0px"
+        // propLeft="360px"
+        propFlex="unset"
+        propPadding="unset"
+        propAlignSelf="stretch"
+        propFlex1="1"
+        propOverflow="hidden"
+        propMarginLeft="-1px"
+        propWidth1="unset"
+        propAlignSelf1="unset"
+        propAlignSelf2="unset"
+        propWidth2="unset"
+        propDisplay="unset"
+      />))}
+      {/* <ProductCard
         trentonModularSofa31="/granite-dining-table-with-dining-chair-1@2x.png"
         trentonModularSofa3="Granite dining table with dining chair"
         rs2500000="Rs. 25,000.00"
@@ -314,7 +342,7 @@ const ProductCatalogue: FunctionComponent = () => {
         propAlignSelf2="stretch"
         propWidth2="unset"
         propDisplay="unset"
-      />
+      /> */}
     </div>
   );
 };
