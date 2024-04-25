@@ -1,0 +1,33 @@
+.frameParent,
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  padding: 0 0 70px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .frameParent {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameParent {
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+}

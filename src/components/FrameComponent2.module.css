@@ -1,0 +1,109 @@
+.coralGablesFLChild {
+  align-self: stretch;
+  height: 393px;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.goingAllInWith,
+.readMore {
+  position: relative;
+}
+.readMore {
+  font-weight: 500;
+}
+.goingAllInWithMillennialDParent,
+.meubelHouseName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.meubelHouseName {
+  border-bottom: 2px solid var(--color-black);
+  font-size: var(--font-size-5xl);
+}
+.goingAllInWithMillennialDParent {
+  padding: var(--padding-8xs) 0;
+  gap: var(--gap-3xs);
+}
+.groupIcon,
+.min {
+  position: relative;
+}
+.groupIcon {
+  height: 17.8px;
+  width: 18px;
+}
+.min {
+  font-weight: 300;
+  display: inline-block;
+  min-width: 45px;
+}
+.mainNavigationBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.uilcalenderIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thOct2022 {
+  height: 24px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 99px;
+}
+.mainNavigationBarParent,
+.sidebarArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mainNavigationBarParent {
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.coralGablesFL,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+}
+.coralGablesFL {
+  gap: var(--gap-14xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .goingAllInWith {
+    font-size: var(--font-size-base);
+  }
+  .readMore {
+    font-size: var(--font-size-lgi);
+  }
+  .coralGablesFL {
+    gap: var(--gap-base);
+  }
+}

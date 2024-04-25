@@ -1,0 +1,21 @@
+.frameGroup,
+.frameParent,
+.singleProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.singleProduct {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

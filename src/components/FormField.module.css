@@ -1,0 +1,43 @@
+.title {
+  position: relative;
+  font-weight: 500;
+}
+.sriLanka {
+  position: relative;
+  display: inline-block;
+  min-width: 71px;
+}
+.dashiconsarrowDownAlt2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.formField,
+.sriLankaParent {
+  align-self: stretch;
+  display: flex;
+}
+.sriLankaParent {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgray);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-xl);
+  white-space: nowrap;
+  gap: var(--gap-xl);
+  color: var(--color-darkgray);
+}
+.formField {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

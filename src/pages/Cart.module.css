@@ -1,0 +1,220 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.fl33134Usa,
+.universityDriveSuite {
+  margin: 0;
+}
+.universityDriveSuiteContainer {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  display: inline-block;
+  width: 285px;
+}
+.about,
+.contact,
+.home,
+.shop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.about,
+.contact,
+.shop {
+  top: 70px;
+}
+.about,
+.contact {
+  top: 140px;
+}
+.contact {
+  top: 209px;
+}
+.homeParent {
+  position: absolute;
+  width: calc(100% - 2px);
+  top: 79px;
+  right: 0;
+  left: 2px;
+  height: 233px;
+}
+.groupDiv,
+.links {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.links {
+  font-weight: 500;
+  color: var(--color-darkgray);
+}
+.groupDiv {
+  height: 100%;
+  bottom: 0;
+  width: 68px;
+}
+.help,
+.paymentOptions,
+.privacyPolicies,
+.returns {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.privacyPolicies,
+.returns {
+  top: 70px;
+}
+.privacyPolicies {
+  top: 139px;
+}
+.helpParent,
+.paymentOptionsParent {
+  position: absolute;
+  top: 79px;
+  left: 0;
+  width: 100%;
+  height: 163px;
+  color: var(--color-black);
+}
+.helpParent {
+  top: 0;
+  left: 212px;
+  width: 140px;
+  height: 242px;
+  color: var(--color-darkgray);
+}
+.frameContainer {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 352px;
+}
+.newsletter {
+  font-weight: 500;
+}
+.enterYourEmail,
+.frameItem,
+.newsletter {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frameItem {
+  top: 24px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 202px;
+  height: 2px;
+}
+.frameInner,
+.subscribe {
+  position: absolute;
+  left: 211px;
+}
+.subscribe {
+  top: 0;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.frameInner {
+  top: 24px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 77px;
+  height: 2px;
+}
+.enterYourEmailAddressParent {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  font-size: var(--font-size-sm);
+}
+.frameGroup,
+.newsletterParent {
+  position: absolute;
+  top: 2px;
+  left: 424px;
+  width: 286px;
+  height: 101px;
+  color: var(--color-darkgray);
+}
+.frameGroup {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 421px;
+  width: 710px;
+  color: var(--color-black);
+}
+.lineDiv,
+.universityDriveSuite200CorParent {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 1131px;
+  height: 312px;
+}
+.lineDiv {
+  left: 0;
+  border-top: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 1241px;
+  height: 1px;
+}
+.meubelHouseAll {
+  position: absolute;
+  top: 35px;
+  left: 2px;
+}
+.frameParent,
+.lineParent {
+  position: absolute;
+  width: 1240px;
+}
+.lineParent {
+  top: 360px;
+  left: 0;
+  height: 59px;
+  color: var(--color-black);
+}
+.frameParent {
+  top: 98px;
+  left: 100px;
+  height: 419px;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 555px;
+  position: relative;
+  display: none;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+  font-family: var(--font-poppins);
+}
+.cart {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

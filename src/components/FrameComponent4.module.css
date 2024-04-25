@@ -1,0 +1,178 @@
+.group1901 {
+  width: 426px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.group1901Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sideTable,
+.viewMore {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.viewMore {
+  display: inline-block;
+  min-width: 125px;
+}
+.frameGroup,
+.sideTableParent,
+.viewMoreWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewMoreWrapper {
+  border-bottom: 2px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xs);
+  font-size: var(--font-size-5xl);
+}
+.frameGroup,
+.sideTableParent {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.frameGroup {
+  flex: 1;
+  overflow: hidden;
+  gap: var(--gap-mini);
+  min-width: 350px;
+  max-width: 100%;
+}
+.cloudSofaThreeSeaterOtto {
+  width: 821px;
+  height: calc(100% - 16px);
+  position: absolute;
+  margin: 0 !important;
+  top: 8px;
+  right: -387px;
+  bottom: 8px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cloudSofaThreeSeaterOttoWrapper {
+  align-self: stretch;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-37xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.sideTable1,
+.viewMore1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.viewMore1 {
+  display: inline-block;
+  min-width: 125px;
+}
+.frameContainer,
+.sideTableGroup,
+.viewMoreContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewMoreContainer {
+  border-bottom: 2px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xs);
+  font-size: var(--font-size-5xl);
+}
+.frameContainer,
+.sideTableGroup {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.frameContainer {
+  flex: 1;
+  overflow: hidden;
+  gap: var(--gap-mini);
+  min-width: 350px;
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1080px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 20px 98px;
+  max-width: 1080px;
+}
+.frameWrapper {
+  align-self: stretch;
+  background-color: var(--color-snow-200);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-61xl) var(--padding-xl);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    gap: var(--gap-30xl);
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sideTable,
+  .sideTable1 {
+    font-size: var(--font-size-10xl);
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+  .frameWrapper {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sideTable {
+    font-size: var(--font-size-3xl);
+  }
+  .viewMore {
+    font-size: var(--font-size-lgi);
+  }
+  .sideTable1 {
+    font-size: var(--font-size-3xl);
+  }
+  .viewMore1 {
+    font-size: var(--font-size-lgi);
+  }
+}

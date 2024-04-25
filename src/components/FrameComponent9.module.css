@@ -1,0 +1,50 @@
+.maskGroupIcon {
+  width: 287px;
+  height: 287px;
+  position: relative;
+  object-fit: contain;
+}
+.sjp0825 {
+  align-self: stretch;
+  position: relative;
+}
+.rs20000000 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+}
+.sjp0825Parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameWrapper,
+.maskGroupParent,
+.sjp0825Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-18xl) 0 var(--padding-18xl-5);
+}
+.maskGroupParent {
+  width: 326px;
+  flex-direction: column;
+  padding: 0 var(--padding-lgi) 0 var(--padding-lgi-9);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 320px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .rs20000000 {
+    font-size: var(--font-size-lgi);
+  }
+}
