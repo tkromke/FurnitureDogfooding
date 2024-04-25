@@ -192,17 +192,7 @@
   gap: var(--gap-xl);
 }
 .meubelHouseAll {
-  width: 100%;
-  border: 0;
-  outline: 0;
-  font-family: var(--font-poppins);
-  font-size: var(--font-size-base);
-  background-color: transparent;
   position: relative;
-  color: var(--color-black);
-  text-align: left;
-  display: inline-block;
-  padding: 0;
 }
 .frameParent,
 .meubelHouseNotice,
@@ -217,6 +207,7 @@
   flex-direction: row;
   align-items: flex-start;
   padding: var(--padding-28xl) var(--padding-3xs) var(--padding-3xs);
+  color: var(--color-black);
 }
 .frameParent,
 .shopInner {

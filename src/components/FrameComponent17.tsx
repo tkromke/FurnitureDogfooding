@@ -59,11 +59,9 @@ const FrameComponent17: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.meubelHouseNotice}>
-          <input
-            className={styles.meubelHouseAll}
-            placeholder="2022 Meubel House. All rights reverved"
-            type="text"
-          />
+          <div className={styles.meubelHouseAll}>
+            2022 Meubel House. All rights reverved
+          </div>
         </div>
       </div>
     </footer>
