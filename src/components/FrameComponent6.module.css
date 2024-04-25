@@ -1,3 +1,6 @@
+.home {
+  min-width: 48px;
+}
 .about,
 .contact,
 .home,
@@ -5,12 +8,10 @@
   position: relative;
   font-weight: 500;
   display: inline-block;
-  min-width: 48px;
 }
-.about,
-.contact,
 .shop {
   min-width: 42px;
+  cursor: pointer;
 }
 .about,
 .contact {
@@ -44,6 +45,9 @@
   flex-shrink: 0;
   min-height: 28px;
 }
+.antDesignshoppingCartOutliIcon {
+  cursor: pointer;
+}
 .fRAMEHOMESHOPABParent,
 .mdiaccountAlertOutlineParent {
   display: flex;
@@ -75,7 +79,24 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1250px) {
+  .fRAMEHOMESHOPABParent {
+    gap: var(--gap-60xl);
+    padding-left: var(--padding-193xl);
+    box-sizing: border-box;
+  }
+}
 @media screen and (max-width: 825px) {
+  .fRAMEHOMESHOPAB {
+    display: none;
+  }
+  .fRAMEHOMESHOPABParent {
+    gap: var(--gap-20xl);
+    padding-left: var(--padding-87xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
   .fRAMEHOMESHOPAB {
     display: none;
   }

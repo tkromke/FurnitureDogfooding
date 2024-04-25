@@ -37,13 +37,6 @@ const ProductCard: FunctionComponent<ProductCardType> = ({
     };
   }, [frameDivPadding, frameDivWidth]);
 
-  const frameDiv1Style: CSSProperties = useMemo(() => {
-    return {
-      padding: frameDivPadding1,
-      alignSelf: frameDivAlignSelf,
-    };
-  }, [frameDivPadding1, frameDivAlignSelf]);
-
   const trentonModularSofa3Style: CSSProperties = useMemo(() => {
     return {
       flex: rs2500000Flex,
@@ -51,12 +44,6 @@ const ProductCard: FunctionComponent<ProductCardType> = ({
       minWidth: rs2500000MinWidth,
     };
   }, [rs2500000Flex, rs2500000Display, rs2500000MinWidth]);
-
-  const frameDiv2Style: CSSProperties = useMemo(() => {
-    return {
-      padding: propPadding,
-    };
-  }, [propPadding]);
 
   return (
     <div className={styles.maskGroupParent} style={frameDivStyle}>
@@ -66,7 +53,7 @@ const ProductCard: FunctionComponent<ProductCardType> = ({
         alt=""
         src={maskGroup}
       />
-      <div className={styles.trentonModularSofa3Wrapper} style={frameDiv1Style}>
+      <div className={styles.trentonModularSofa3Wrapper}>
         <div
           className={styles.trentonModularSofa3}
           style={trentonModularSofa3Style}
@@ -74,7 +61,7 @@ const ProductCard: FunctionComponent<ProductCardType> = ({
           {trentonModularSofa3}
         </div>
       </div>
-      <div className={styles.rs2500000Wrapper} style={frameDiv2Style}>
+      <div className={styles.rs2500000Wrapper}>
         <div className={styles.rs2500000}>{rs2500000}</div>
       </div>
     </div>

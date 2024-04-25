@@ -39,6 +39,7 @@
   overflow: hidden;
   flex-direction: row;
   padding: 0 0 var(--padding-3xs);
+  cursor: pointer;
   font-size: var(--font-size-5xl);
 }
 .frameGroup,
@@ -100,6 +101,7 @@
   overflow: hidden;
   flex-direction: row;
   padding: 0 0 var(--padding-3xs);
+  cursor: pointer;
   font-size: var(--font-size-5xl);
 }
 .frameContainer,
@@ -136,7 +138,6 @@
   justify-content: center;
   padding: var(--padding-61xl) var(--padding-xl);
   max-width: 100%;
-  z-index: 2;
   text-align: left;
   font-size: var(--font-size-17xl);
   color: var(--color-black);
@@ -148,7 +149,27 @@
     max-width: 100%;
   }
 }
+@media screen and (max-width: 1050px) {
+  .frameParent {
+    gap: var(--gap-30xl);
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 825px) {
+  .sideTable,
+  .sideTable1 {
+    font-size: var(--font-size-10xl);
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+  .frameWrapper {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
   .sideTable,
   .sideTable1 {
     font-size: var(--font-size-10xl);

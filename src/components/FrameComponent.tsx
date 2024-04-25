@@ -1,21 +1,9 @@
 import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
-import Footer from "./Footer";
 import styles from "./FrameComponent.module.css";
 
 const FrameComponent: FunctionComponent = () => {
-  const navigate = useNavigate();
-
-  const onHomeTextClick = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onShopText1Click = useCallback(() => {
-    navigate("/shop");
-  }, [navigate]);
-
-  const onContactText1Click = useCallback(() => {
-    // Please sync "Contact" to the project
+  const onGroupButtonClick = useCallback(() => {
+    window.open("https://www.instagram.com/locofy_ai/");
   }, []);
 
   return (
@@ -36,17 +24,70 @@ const FrameComponent: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.frameWrapper}>
-          <button className={styles.rectangleParent}>
+          <button
+            className={styles.rectangleParent}
+            onClick={onGroupButtonClick}
+          >
             <div className={styles.frameItem} />
             <div className={styles.followUs}>Follow Us</div>
           </button>
         </div>
       </div>
-      <Footer
-        onHomeTextClick={onHomeTextClick}
-        onShopText1Click={onShopText1Click}
-        onContactText1Click={onContactText1Click}
-      />
+      <footer className={styles.subscribeFormWrapper}>
+        <div className={styles.subscribeForm}>
+          <div className={styles.frameContainer}>
+            <div className={styles.universityDriveSuite200CorWrapper}>
+              <div className={styles.universityDriveSuiteContainer}>
+                <p className={styles.universityDriveSuite}>
+                  400 University Drive Suite 200 Coral Gables,
+                </p>
+                <p className={styles.fl33134Usa}>FL 33134 USA</p>
+              </div>
+            </div>
+            <div className={styles.frameDiv}>
+              <div className={styles.frameParent1}>
+                <div className={styles.linksParent}>
+                  <div className={styles.links}>Links</div>
+                  <div className={styles.homeParent}>
+                    <div className={styles.home}>Home</div>
+                    <div className={styles.shop}>Shop</div>
+                    <div className={styles.about}>About</div>
+                    <div className={styles.contact}>Contact</div>
+                  </div>
+                </div>
+                <div className={styles.helpParent}>
+                  <div className={styles.help}>Help</div>
+                  <div className={styles.paymentOptionsParent}>
+                    <div className={styles.paymentOptions}>Payment Options</div>
+                    <div className={styles.returns}>Returns</div>
+                    <div className={styles.privacyPolicies}>
+                      Privacy Policies
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.footerLinks}>
+                <div className={styles.newsletter}>Newsletter</div>
+                <div className={styles.footerLinks1}>
+                  <input
+                    className={styles.inputEmail}
+                    placeholder="Enter Your Email Address"
+                    type="text"
+                  />
+                  <div className={styles.inputEmail1}>
+                    <button className={styles.subscribe}>SUBSCRIBE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.newsletterContainer}>
+            <div className={styles.meubelHouseAll}>
+              2022 Meubel House. All rights reverved
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
   );
 };

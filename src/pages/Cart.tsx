@@ -2,7 +2,6 @@ import { FunctionComponent } from "react";
 import FrameComponent14 from "../components/FrameComponent14";
 import FrameComponent15 from "../components/FrameComponent15";
 import GroupComponent7 from "../components/GroupComponent7";
-import GroupComponent1 from "../components/GroupComponent1";
 import Footer1 from "../components/Footer1";
 import styles from "./Cart.module.css";
 
@@ -65,7 +64,27 @@ const Cart: FunctionComponent = () => {
         </div>
       </footer>
       <GroupComponent7 />
-      <GroupComponent1 />
+      <section className={styles.rectangleGroup}>
+        <div className={styles.rectangleDiv} />
+        <div className={styles.freeDeliveryParent}>
+          <h1 className={styles.freeDelivery}>Free Delivery</h1>
+          <div className={styles.forAllOders}>
+            For all oders over $50, consectetur adipim scing elit.
+          </div>
+        </div>
+        <div className={styles.daysReturnParent}>
+          <h1 className={styles.daysReturn}>90 Days Return</h1>
+          <div className={styles.ifGoodsHave}>
+            If goods have problems, consectetur adipim scing elit.
+          </div>
+        </div>
+        <div className={styles.securePaymentParent}>
+          <h1 className={styles.securePayment}>Secure Payment</h1>
+          <div className={styles.securePaymentConsectetur}>
+            100% secure payment, consectetur adipim scing elit.
+          </div>
+        </div>
+      </section>
       <Footer1 />
     </div>
   );

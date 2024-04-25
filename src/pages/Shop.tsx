@@ -1,29 +1,12 @@
-import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { FunctionComponent } from "react";
 import FrameComponent6 from "../components/FrameComponent6";
 import FrameComponent10 from "../components/FrameComponent10";
 import GroupComponent2 from "../components/GroupComponent2";
-import FrameComponent8 from "../components/FrameComponent8";
-import FrameComponent7 from "../components/FrameComponent7";
+import ProductCard from "../components/ProductCard";
 import GroupComponent1 from "../components/GroupComponent1";
-import Footer from "../components/Footer";
 import styles from "./Shop.module.css";
 
 const Shop: FunctionComponent = () => {
-  const navigate = useNavigate();
-
-  const onHomeText2Click = useCallback(() => {
-    navigate("/");
-  }, [navigate]);
-
-  const onShopText2Click = useCallback(() => {
-    navigate("/shop");
-  }, [navigate]);
-
-  const onContactText1Click = useCallback(() => {
-    // Please sync "Contact" to the project
-  }, []);
-
   return (
     <div className={styles.shop}>
       <FrameComponent6 frameNavBackgroundColor="#fff" />
@@ -31,12 +14,63 @@ const Shop: FunctionComponent = () => {
       <GroupComponent2 />
       <FrameComponent8 />
       <GroupComponent1 />
-      <Footer
-        propMarginTop="unset"
-        onHomeTextClick={onHomeText2Click}
-        onShopText1Click={onShopText2Click}
-        onContactText1Click={onContactText1Click}
-      />
+      <footer className={styles.frameFooter}>
+        <div className={styles.frameParent2}>
+          <div className={styles.frameParent3}>
+            <div className={styles.universityDriveSuite200CorWrapper}>
+              <div className={styles.universityDriveSuiteContainer}>
+                <p className={styles.universityDriveSuite}>
+                  400 University Drive Suite 200 Coral Gables,
+                </p>
+                <p className={styles.fl33134Usa}>FL 33134 USA</p>
+              </div>
+            </div>
+            <div className={styles.linksAndContactInfo}>
+              <div className={styles.frameParent4}>
+                <div className={styles.linksParent}>
+                  <div className={styles.links}>Links</div>
+                  <div className={styles.homeParent}>
+                    <div className={styles.home}>Home</div>
+                    <div className={styles.shop1}>Shop</div>
+                    <div className={styles.about}>About</div>
+                    <div className={styles.contact}>Contact</div>
+                  </div>
+                </div>
+                <div className={styles.helpParent}>
+                  <div className={styles.help}>Help</div>
+                  <div className={styles.paymentOptionsParent}>
+                    <div className={styles.paymentOptions}>Payment Options</div>
+                    <div className={styles.returns}>Returns</div>
+                    <div className={styles.privacyPolicies}>
+                      Privacy Policies
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.newsletterSubscription}>
+                <div className={styles.newsletter}>Newsletter</div>
+                <div className={styles.frameParent5}>
+                  <div className={styles.enterYourEmailAddressWrapper}>
+                    <div className={styles.enterYourEmail}>
+                      Enter Your Email Address
+                    </div>
+                  </div>
+                  <button className={styles.subscribeWrapper}>
+                    <div className={styles.subscribe}>SUBSCRIBE</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.meubelHouseNotice}>
+            <input
+              className={styles.meubelHouseAll}
+              placeholder="2022 Meubel House. All rights reverved"
+              type="text"
+            />
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

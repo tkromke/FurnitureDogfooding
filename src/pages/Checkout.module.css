@@ -304,49 +304,145 @@
 .frameWrapper1 {
   align-self: stretch;
 }
-.frameParent {
-  flex: 1;
-  flex-direction: column;
-  padding: var(--padding-61xl) var(--padding-21xl);
-  box-sizing: border-box;
-  gap: 37px;
-  min-width: 398px;
-  max-width: 100%;
-  z-index: 1;
-}
-.checkout,
 .frameParent,
 .rectangleParent {
   background-color: var(--color-white);
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-21xl);
+  gap: 37px;
+  min-width: 398px;
+  z-index: 1;
 }
 .rectangleParent {
   align-self: stretch;
   flex-direction: row;
   padding: var(--padding-60xl) 87px var(--padding-59xl);
-  box-sizing: border-box;
   gap: var(--gap-21xl);
-  max-width: 100%;
   text-align: left;
   font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frameChild2 {
+  height: 300px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-snow-200);
+  display: none;
+  max-width: 100%;
+}
+.freeDelivery {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.forAllOders {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray);
+  z-index: 1;
+}
+.freeDeliveryParent {
+  width: 376px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.daysReturn,
+.ifGoodsHave {
+  position: relative;
+  z-index: 1;
+}
+.daysReturn {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.ifGoodsHave {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray);
+}
+.daysReturnParent {
+  width: 376px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.securePayment {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.securePaymentConsectetur {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray);
+  z-index: 1;
+}
+.securePaymentParent {
+  width: 376px;
+  flex-direction: column;
+  max-width: 100%;
+}
+.checkout,
+.rectangleContainer,
+.securePaymentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  align-self: stretch;
+  background-color: var(--color-snow-200);
+  flex-direction: row;
+  padding: var(--padding-77xl) var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
 .checkout {
   width: 100%;
   position: relative;
+  background-color: var(--color-white);
   overflow: hidden;
   flex-direction: column;
-  line-height: normal;
   letter-spacing: normal;
+  line-height: normal;
 }
 @media screen and (max-width: 1425px) {
   .rectangleParent {
     padding-top: var(--padding-32xl);
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
+  }
+  .rectangleContainer {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -374,6 +470,17 @@
     padding-right: var(--padding-24xl);
     box-sizing: border-box;
   }
+  .daysReturn,
+  .freeDelivery,
+  .securePayment {
+    font-size: var(--font-size-7xl);
+  }
+  .rectangleContainer {
+    gap: var(--gap-4xl);
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 450px) {
   .product,
@@ -398,6 +505,29 @@
   }
   .rectangleParent {
     padding: var(--padding-2xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .freeDelivery {
+    font-size: var(--font-size-lgi);
+  }
+  .forAllOders {
+    font-size: var(--font-size-base);
+  }
+  .daysReturn {
+    font-size: var(--font-size-lgi);
+  }
+  .ifGoodsHave {
+    font-size: var(--font-size-base);
+  }
+  .securePayment {
+    font-size: var(--font-size-lgi);
+  }
+  .securePaymentConsectetur {
+    font-size: var(--font-size-base);
+  }
+  .rectangleContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
 }

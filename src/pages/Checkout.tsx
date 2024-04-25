@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import FrameComponent14 from "../components/FrameComponent14";
 import FrameComponent13 from "../components/FrameComponent13";
 import FrameComponent12 from "../components/FrameComponent12";
-import GroupComponent1 from "../components/GroupComponent1";
 import Footer from "../components/Footer";
 import styles from "./Checkout.module.css";
 
@@ -106,7 +105,27 @@ const Checkout: FunctionComponent = () => {
           </div>
         </div>
       </section>
-      <GroupComponent1 />
+      <section className={styles.rectangleContainer}>
+        <div className={styles.frameChild2} />
+        <div className={styles.freeDeliveryParent}>
+          <h1 className={styles.freeDelivery}>Free Delivery</h1>
+          <div className={styles.forAllOders}>
+            For all oders over $50, consectetur adipim scing elit.
+          </div>
+        </div>
+        <div className={styles.daysReturnParent}>
+          <h1 className={styles.daysReturn}>90 Days Return</h1>
+          <div className={styles.ifGoodsHave}>
+            If goods have problems, consectetur adipim scing elit.
+          </div>
+        </div>
+        <div className={styles.securePaymentParent}>
+          <h1 className={styles.securePayment}>Secure Payment</h1>
+          <div className={styles.securePaymentConsectetur}>
+            100% secure payment, consectetur adipim scing elit.
+          </div>
+        </div>
+      </section>
       <Footer
         propMarginTop="unset"
         onHomeTextClick={onHomeTextClick}

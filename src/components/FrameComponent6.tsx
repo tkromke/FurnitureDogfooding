@@ -1,4 +1,10 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import {
+  FunctionComponent,
+  useMemo,
+  type CSSProperties,
+  useCallback,
+} from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./FrameComponent6.module.css";
 
 export type FrameComponent6Type = {
@@ -15,11 +21,23 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
     };
   }, [frameNavBackgroundColor]);
 
+  const navigate = useNavigate();
+
+  const onShopTextClick = useCallback(() => {
+    navigate("/shop");
+  }, [navigate]);
+
+  const onAntDesignshoppingCartOutliIconClick = useCallback(() => {
+    navigate("/cart");
+  }, [navigate]);
+
   return (
     <header className={styles.fRAMEHOMESHOPABParent} style={frameHeaderStyle}>
       <nav className={styles.fRAMEHOMESHOPAB}>
         <div className={styles.home}>Home</div>
-        <div className={styles.shop}>Shop</div>
+        <div className={styles.shop} onClick={onShopTextClick}>
+          Shop
+        </div>
         <div className={styles.about}>About</div>
         <div className={styles.contact}>Contact</div>
       </nav>
@@ -47,6 +65,7 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
           loading="lazy"
           alt=""
           src="/antdesignshoppingcartoutlined.svg"
+          onClick={onAntDesignshoppingCartOutliIconClick}
         />
       </div>
     </header>

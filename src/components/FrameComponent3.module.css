@@ -1,158 +1,148 @@
-.asgaardSofa1 {
-  height: 592px;
-  flex: 1;
-  position: relative;
-  max-width: 845px;
-  overflow: hidden;
-  object-fit: cover;
-  min-width: 549px;
-}
-.newArrivals {
+.rocketSingleSeater,
+.shopNow {
   margin: 0;
   position: relative;
   font-size: inherit;
   font-weight: 500;
   font-family: inherit;
 }
-.newArrivalsWrapper {
+.rocketSingleSeater {
   align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
 }
-.asgaardSofa {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-}
-.asgaardSofaWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 var(--padding-14xl);
-  font-size: var(--font-size-29xl);
-}
-.orderNow {
-  position: relative;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-poppins);
-  color: var(--color-black);
-  text-align: left;
+.shopNow {
   display: inline-block;
-  min-width: 106px;
+  min-width: 121px;
 }
-.orderNowWrapper {
-  cursor: pointer;
-  border: 1px solid var(--color-black);
-  padding: var(--padding-sm) var(--padding-52xl);
-  background-color: var(--color-oldlace-100);
-  flex: 1;
-  overflow: hidden;
+.shopNowWrapper {
+  border-bottom: 2px solid var(--color-black);
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0 var(--padding-6xs);
+  font-size: var(--font-size-5xl);
+}
+.rocketSingleSeaterParent {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  white-space: nowrap;
-}
-.orderNowWrapper:hover {
-  background-color: var(--color-antiquewhite);
-  border: 1px solid var(--color-darkslategray-100);
+  padding: var(--padding-xl) 0;
   box-sizing: border-box;
+  gap: var(--gap-6xl);
+  min-width: 440px;
+  max-width: 100%;
 }
-.frameContainer {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 var(--padding-21xl) 0 var(--padding-21xl-5);
-}
-.asgaardSofa1Parent,
-.frameContainer,
-.frameParent,
-.frameWrapper,
-.homeInner {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+.rocketSingleSeater1 {
+  height: 655px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  min-width: 432px;
 }
 .frameParent {
   width: 100%;
-  overflow: hidden;
-  flex-direction: column;
-  max-width: 331px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 1140px;
 }
-.asgaardSofa1Parent,
 .frameWrapper,
 .homeInner {
+  display: flex;
   box-sizing: border-box;
   max-width: 100%;
 }
 .frameWrapper {
-  width: 331px;
-  flex-direction: column;
-  padding: var(--padding-175xl-5) 0 0;
-  min-width: 331px;
-}
-.asgaardSofa1Parent,
-.homeInner {
-  flex-direction: row;
-}
-.asgaardSofa1Parent {
   flex: 1;
-  background-color: var(--color-oldlace-200);
-  overflow: hidden;
-  padding: 0 var(--padding-xl);
-  gap: var(--gap-69xl);
+  background-color: var(--color-moccasin);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-103xl-5) var(--padding-xl);
 }
 .homeInner {
   align-self: stretch;
-  padding: 0 0 var(--padding-50xl);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
   text-align: left;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-45xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
+@media screen and (max-width: 1250px) {
+  .frameParent {
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 1200px) {
-  .asgaardSofa1 {
+  .rocketSingleSeaterParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
     max-width: 100%;
   }
   .frameWrapper {
+    padding-top: var(--padding-61xl);
+    padding-bottom: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .rocketSingleSeaterParent {
     flex: 1;
   }
-  .asgaardSofa1Parent {
+  .frameParent {
     flex-wrap: wrap;
+  }
+  .frameWrapper {
+    padding-top: var(--padding-61xl);
+    padding-bottom: var(--padding-61xl);
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 825px) {
-  .asgaardSofa1 {
+  .rocketSingleSeater {
+    font-size: var(--font-size-32xl);
+  }
+  .rocketSingleSeater1,
+  .rocketSingleSeaterParent {
     min-width: 100%;
   }
-  .asgaardSofa {
-    font-size: var(--font-size-19xl);
+  .frameParent {
+    gap: var(--gap-base);
   }
-  .asgaardSofa1Parent {
-    gap: var(--gap-25xl);
+}
+@media screen and (max-width: 750px) {
+  .rocketSingleSeater {
+    font-size: var(--font-size-32xl);
   }
-  .homeInner {
-    padding-bottom: var(--padding-26xl);
-    box-sizing: border-box;
+  .rocketSingleSeater1,
+  .rocketSingleSeaterParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-base);
   }
 }
 @media screen and (max-width: 450px) {
-  .newArrivals {
+  .rocketSingleSeater {
+    font-size: var(--font-size-19xl);
+  }
+  .shopNow {
     font-size: var(--font-size-lgi);
   }
-  .asgaardSofa {
-    font-size: var(--font-size-10xl);
-  }
   .frameWrapper {
-    padding-top: var(--padding-107xl);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
-  }
-  .asgaardSofa1Parent {
-    gap: var(--gap-3xl);
   }
 }

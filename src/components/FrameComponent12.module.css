@@ -12,12 +12,14 @@
   min-width: 87px;
 }
 .formFieldChild {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   height: 75px;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
   box-sizing: border-box;
+  min-width: 130px;
 }
 .formField {
   flex: 1;
@@ -35,12 +37,14 @@
   min-width: 86px;
 }
 .formFieldItem {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   height: 75px;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
   box-sizing: border-box;
+  min-width: 130px;
 }
 .formField1,
 .formFieldParent,
@@ -72,11 +76,14 @@
   font-weight: 500;
 }
 .formFieldInner {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  min-width: 250px;
 }
 .formField2 {
   align-self: stretch;
@@ -94,14 +101,17 @@
   min-width: 118px;
 }
 .formField3,
-.frameDiv {
+.frameInput {
   align-self: stretch;
   flex: 1;
 }
-.frameDiv {
-  border-radius: var(--br-3xs);
-  background-color: var(--color-white);
+.frameInput {
   border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  min-width: 250px;
 }
 .formField3 {
   display: flex;
@@ -117,11 +127,14 @@
   min-width: 92px;
 }
 .formFieldChild1 {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  min-width: 250px;
 }
 .formField4 {
   align-self: stretch;
@@ -139,11 +152,14 @@
   min-width: 70px;
 }
 .formFieldChild2 {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  min-width: 250px;
 }
 .formField5 {
   align-self: stretch;
@@ -161,11 +177,14 @@
   min-width: 68px;
 }
 .formFieldChild3 {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  min-width: 250px;
 }
 .formField6 {
   align-self: stretch;
@@ -183,11 +202,14 @@
   min-width: 51px;
 }
 .formFieldChild4 {
+  border: 1px solid var(--color-darkgray);
+  outline: 0;
+  background-color: var(--color-white);
   align-self: stretch;
   flex: 1;
   border-radius: var(--br-3xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  min-width: 250px;
 }
 .formField7 {
   align-self: stretch;

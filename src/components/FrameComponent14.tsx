@@ -6,7 +6,7 @@ const FrameComponent14: FunctionComponent = () => {
     <header className={styles.checkoutContainer}>
       <div className={styles.frameParent}>
         <nav className={styles.homeParent}>
-          <div className={styles.home}>Home</div>
+          <a className={styles.home}>Home</a>
           <div className={styles.shop}>Shop</div>
           <div className={styles.about}>About</div>
           <div className={styles.contact}>Contact</div>

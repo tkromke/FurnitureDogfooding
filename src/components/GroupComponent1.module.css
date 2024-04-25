@@ -91,12 +91,12 @@
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
-@media screen and (max-width: 1425px) {
+@media screen and (max-width: 1350px) {
   .rectangleParent {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 800px) {
   .daysReturn,
   .freeDelivery,
   .securePayment {

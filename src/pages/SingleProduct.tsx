@@ -35,7 +35,6 @@ const SingleProduct: FunctionComponent = () => {
         <GroupComponent3 />
       </main>
       <Footer
-        propMarginTop="unset"
         onHomeTextClick={onHomeText1Click}
         onShopText1Click={onShopText2Click}
         onContactText1Click={onContactText1Click}

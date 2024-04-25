@@ -25,8 +25,8 @@ const Footer: FunctionComponent<FooterType> = ({
 
   return (
     <footer className={styles.footer} style={footerStyle}>
-      <div className={styles.addressInfoParent}>
-        <div className={styles.addressInfo}>
+      <div className={styles.frameParent}>
+        <div className={styles.universityDriveSuite200CorWrapper}>
           <div className={styles.universityDriveSuiteContainer}>
             <p className={styles.universityDriveSuite}>
               400 University Drive Suite 200 Coral Gables,
@@ -34,7 +34,7 @@ const Footer: FunctionComponent<FooterType> = ({
             <p className={styles.fl33134Usa}>FL 33134 USA</p>
           </div>
         </div>
-        <div className={styles.frameParent}>
+        <div className={styles.frameGroup}>
           <div className={styles.linksParent}>
             <div className={styles.links}>Links</div>
             <div className={styles.homeParent}>
@@ -60,16 +60,16 @@ const Footer: FunctionComponent<FooterType> = ({
           </div>
           <div className={styles.newsletterParent}>
             <div className={styles.newsletter}>Newsletter</div>
-            <div className={styles.footerLinks}>
+            <div className={styles.frameContainer}>
               <div className={styles.enterYourEmailAddressParent}>
                 <div className={styles.enterYourEmail}>
                   Enter Your Email Address
                 </div>
                 <div className={styles.frameChild} />
               </div>
-              <button className={styles.enterEmailAddress}>
+              <button className={styles.subscribeParent}>
                 <div className={styles.subscribe}>SUBSCRIBE</div>
-                <div className={styles.enterEmailAddressChild} />
+                <div className={styles.frameItem} />
               </button>
             </div>
           </div>

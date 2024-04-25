@@ -5,7 +5,7 @@
 .universityDriveSuiteContainer {
   position: relative;
 }
-.addressInfo {
+.universityDriveSuite200CorWrapper {
   width: 285px;
   display: flex;
   flex-direction: column;
@@ -127,20 +127,20 @@
   display: inline-block;
   min-width: 75px;
 }
-.enterEmailAddressChild {
+.frameItem {
   width: 77px;
   height: 2px;
   position: relative;
   border-top: 1px solid var(--color-black);
   box-sizing: border-box;
 }
-.enterEmailAddress,
-.footerLinks {
+.frameContainer,
+.subscribeParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.enterEmailAddress {
+.subscribeParent {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -148,7 +148,7 @@
   flex-direction: column;
   gap: var(--gap-10xs);
 }
-.footerLinks {
+.frameContainer {
   align-self: stretch;
   flex-direction: row;
   gap: var(--gap-2xs);
@@ -156,7 +156,7 @@
   debug_commit: 1de1738;
   font-size: var(--font-size-sm);
 }
-.addressInfoParent,
+.frameGroup,
 .frameParent,
 .newsletterParent {
   display: flex;
@@ -171,18 +171,18 @@
   padding: 0 0 var(--padding-60xl);
   gap: var(--gap-36xl);
 }
-.addressInfoParent,
+.frameGroup,
 .frameParent {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.frameParent {
+.frameGroup {
   justify-content: flex-start;
   padding: 0 var(--padding-9xs) 0 0;
   gap: 60px 107px;
   max-width: 100%;
 }
-.addressInfoParent {
+.frameParent {
   width: 100%;
   justify-content: space-between;
   padding: 0 var(--padding-11xs) 0 0;
@@ -212,16 +212,14 @@
   gap: var(--gap-21xl-5);
   max-width: 1440px;
   min-height: 555px;
-  z-index: 2;
-  margin-top: -5px;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-darkgray);
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 1425px) {
-  .addressInfoParent,
-  .footer {
+  .footer,
+  .frameParent {
     max-width: 100%;
   }
 }
@@ -231,20 +229,19 @@
   }
 }
 @media screen and (max-width: 825px) {
-  .frameParent {
+  .frameGroup {
     gap: var(--gap-34xl);
   }
   .footer {
     gap: var(--gap-xl);
-    padding-left: var(--padding-56xl);
-    padding-right: var(--padding-5xl);
-    padding-bottom: var(--padding-30xl);
+    padding: var(--padding-20xl) var(--padding-5xl) var(--padding-30xl)
+      var(--padding-56xl);
     box-sizing: border-box;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
-  .frameParent,
+  .frameGroup,
   .newsletterParent {
     gap: var(--gap-8xl);
   }
